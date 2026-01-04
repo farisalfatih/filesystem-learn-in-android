@@ -1,0 +1,86 @@
+# Ignore temporary and system files
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Backup files
+*~
+*.bak
+*.backup
+*.old
+*.orig
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+tmp/
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.settings/
+
+# Log files
+*.log
+logs/
+*.log.*
+
+# Test directories and files
+test_output/
+scratch/
+playground/
+
+# Personal notes (users can create these for learning)
+my_notes.md
+personal/
+practice/
+
+# Compressed files (often created during exercises)
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+
+# Build and distribution directories
+build/
+dist/
+*.egg-info/
+
+# Environment files
+.env
+.env.local
+.venv/
+venv/
+ENV/
+
+# Cache directories
+__pycache__/
+*.pyc
+*.pyo
+.cache/
+.pytest_cache/
+
+# Node modules (if any JavaScript tools are used)
+node_modules/
+
+# Generated documentation
+_site/
+.jekyll-cache/
+
+# Exercise working directories
+exercises/work/
+exercises/solutions/my_solutions/
