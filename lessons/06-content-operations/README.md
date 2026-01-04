@@ -490,7 +490,6 @@ $ wc -l colors.txt
 
 # Sort and count occurrences
 $ sort colors.txt | uniq -c
-  1 blue
   2 blue
   1 green
   3 red
